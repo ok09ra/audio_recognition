@@ -1,5 +1,5 @@
 """
-beginning of frequency analysis 
+周波数スペクトル解析事始
 20200917-
 by Sota Okuda
 

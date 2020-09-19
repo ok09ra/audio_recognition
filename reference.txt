@@ -6,3 +6,6 @@ https://sciseed.jp/technology/python/
 
 ・フォルマント分析
 http://www.nakano-sound.com/voicetraning/voicetraning15.html
+
+・メル周波数スペクトラム
+https://aidiary.hatenablog.com/entry/20120225/1330179868
