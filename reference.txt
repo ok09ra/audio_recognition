@@ -1,0 +1,8 @@
+・qiita MFCC（メル周波数ケプストラム係数）入門
+https://qiita.com/tmtakashi_dist/items/eecb705ea48260db0b62
+
+・Pythonによるフォルマント分析と音声認識
+https://sciseed.jp/technology/python/
+
+・フォルマント分析
+http://www.nakano-sound.com/voicetraning/voicetraning15.html
