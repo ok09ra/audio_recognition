@@ -30,7 +30,7 @@ data = data[:,1]/ 32768
 # フレーム長
 fft_size = 1024             
 # フレームシフト長 
-hop_length = int(fft_size / 4) 
+hop_length = int(fft_size/2) 
 
 
 
@@ -42,7 +42,7 @@ S = librosa.feature.melspectrogram(S=D, sr=rate)
 S_dB = librosa.amplitude_to_db(S, ref=np.max)
 
 # MFCCを算出
-mfcc = librosa.feature.mfcc(S=S_dB, n_mfcc=20, dct_type=3)
+mfcc = librosa.feature.mfcc(S=S_dB, n_mfcc=128, dct_type=3)
 
 #standarization
 mfcc = sp.stats.zscore(mfcc, axis = 1)
@@ -50,4 +50,4 @@ mfcc = sp.stats.zscore(mfcc, axis = 1)
 # グラフ表示
 librosa.display.specshow(mfcc, sr=rate, hop_length=hop_length, x_axis='time', y_axis='hz', cmap='magma')
 plt.colorbar()  
-plt.show()          
+plt.show()
